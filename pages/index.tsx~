@@ -43,7 +43,7 @@ interface IndexProps {
 const Index: React.FC<IndexProps> = ({ product }) => {
 	const handleClick = () => {
 		const sampleCart: Cart = {
-			currency: "ZAR",
+			currency: "USD",
 			items: [
 				{
 					id: product.id,
